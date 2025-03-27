@@ -1,4 +1,5 @@
 @media {}
+
 /*==============ФОН===============*/
 html {
   background-color: #eee;
@@ -68,12 +69,6 @@ body {
     margin-top: 0;
     width: 40%;
     height: 100%;
-  }
-
-  .mfp-close {
-    z-index: 9999 !important;
-    height: 100%;
-    margin-top: -60%;
   }
 
   .mfp-arrow:after,
@@ -467,7 +462,8 @@ body {
   .b-video .video-link,
   .b-db_entry>.c-image img,
   .p-profiles .profile-head .c-history .entry img,
-  .b-badge img, .b-badge .no-image {
+  .b-badge img,
+  .b-badge .no-image {
     border-radius: 2px;
   }
 
@@ -512,7 +508,9 @@ body {
     border-radius: 0 0 3px 3px;
   }
 
-  input, select, textarea {
+  input,
+  select,
+  textarea {
     border-color: #ccc !important;
   }
 
