@@ -54,6 +54,6 @@
 
 ## Credits
 Тёмный фон: [https://www.pixiv.net/en/artworks/62824816](https://www.pixiv.net/en/artworks/62824816)   
-Тёмный фон шапки профиля: ???   
+Тёмный фон шапки профиля: Эндинг аниме [Шарлотта](https://shikimori.one/animes/28999-charlotte)   
 Светлый фон: [https://www.pixiv.net/en/artworks/64444012](https://www.pixiv.net/en/artworks/64444012)  
 Светлый фон шапки профиля: [https://www.pixiv.net/en/artworks/82906571](https://www.pixiv.net/en/artworks/82906571)
