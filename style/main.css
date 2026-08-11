@@ -1,4 +1,5 @@
-@media {}
+@media {
+}
 
 /*==============ФОН===============*/
 html {
@@ -32,7 +33,7 @@ body {
     float: none;
   }
 
-  .b-catalog-entry-embedded>.b-catalog_entry-tooltip .b-add_to_list {
+  .b-catalog-entry-embedded > .b-catalog_entry-tooltip .b-add_to_list {
     min-width: 100px !important;
     max-width: 196px !important;
     width: auto !important;
@@ -81,9 +82,9 @@ body {
     margin-top: 0;
   }
 
-  .headline>a,
-  .midheadline>a,
-  .subheadline>a {
+  .headline > a,
+  .midheadline > a,
+  .subheadline > a {
     overflow: visible;
   }
 
@@ -175,7 +176,7 @@ body {
     opacity: 0.5;
   }
 
-  .b-catalog_entry.in_list img:Hover {
+  .b-catalog_entry.in_list img:hover {
     opacity: 1;
   }
 
@@ -186,10 +187,10 @@ body {
     opacity: 0.4;
   }
 
-  .complete d img:Hover,
-  .on_hold img:Hover,
-  .watching img:Hover,
-  .planned img:Hover {
+  .complete d img:hover,
+  .on_hold img:hover,
+  .watching img:hover,
+  .planned img:hover {
     opacity: 1;
   }
 
@@ -199,22 +200,22 @@ body {
   .b-user.avatar_fixed_margin img,
   .b-user16 img,
   .b-club .logo,
-  .b-comment>.inner header img,
+  .b-comment > .inner header img,
   .menu .avatar,
   div.avatar img,
   .p-profiles-edit .account .avatar-edit img,
   .b-user.detailed .info .image-name .image,
-  .b-message>.inner header img,
+  .b-message > .inner header img,
   .b-hot_topics .topic a.with-author img,
-  .b-dialog>.inner header img,
+  .b-dialog > .inner header img,
   .b-hot_topics .topic a .poster,
   .p-topics .l-menu .clubs .entry img,
   .ac_results.menu-suggest li div.name img,
   header a[href*="forum"] img[src*="user"],
   .submenu-triangle.icon-avatar img,
   .menu-dropdown.profile img,
-  .b-topic>.inner header img,
-  .b-review>.inner header .author-link img,
+  .b-topic > .inner header img,
+  .b-review > .inner header .author-link img,
   .b-user.detailed .info .image-name .image,
   .b-user.moderation .info .image-name .image,
   .user_rates-minified .b-catalog_entry .image-decor::before {
@@ -314,11 +315,11 @@ body {
     min-height: 50px;
   }
 
-  .b-comment>.inner header img {
+  .b-comment > .inner header img {
     margin: 0 10px 0 0;
   }
 
-  .b-comment>.inner header .name-date {
+  .b-comment > .inner header .name-date {
     overflow: visible;
   }
 
@@ -326,16 +327,16 @@ body {
     margin: 5px 0;
   }
 
-  .b-comment>.inner div.body,
-  .b-message>.inner div.body {
+  .b-comment > .inner div.body,
+  .b-message > .inner div.body {
     margin-left: 58px;
   }
 
-  .b-dialog>.inner div.body {
+  .b-dialog > .inner div.body {
     margin-left: 58px;
   }
 
-  .b-dialog>.inner div.body .inner div.body {
+  .b-dialog > .inner div.body .inner div.body {
     margin-left: 40px;
   }
 
@@ -399,15 +400,15 @@ body {
     margin-bottom: 15px;
   }
 
-  .headline.linkheadline>a,
-  .linkheadline.midheadline>a,
-  .linkheadline.subheadline>a {
+  .headline.linkheadline > a,
+  .linkheadline.midheadline > a,
+  .linkheadline.subheadline > a {
     text-decoration: none;
   }
 
-  .headline.linkheadline>a:hover,
-  .linkheadline.midheadline>a:hover,
-  .linkheadline.subheadline>a:hover {
+  .headline.linkheadline > a:hover,
+  .linkheadline.midheadline > a:hover,
+  .linkheadline.subheadline > a:hover {
     text-decoration: underline;
   }
 
@@ -415,7 +416,7 @@ body {
     padding: 4px 0 4px 5px;
   }
 
-  .b-topic.b-critique-topic>.inner header .name {
+  .b-topic.b-critique-topic > .inner header .name {
     margin-top: 7px;
     display: inline-block;
   }
@@ -443,16 +444,10 @@ body {
   }
 
   .image-cutter {
-    width: 98%;
-    height: 98%;
-    display: block;
-    line-height: 0;
-    overflow: hidden;
-    position: relative;
     border-radius: 2px;
   }
 
-  .image-decor>.text {
+  .image-decor > .text {
     border-radius: 0 0 2px 2px;
     width: 98% !important;
   }
@@ -460,7 +455,7 @@ body {
   .b-db_entry-variant-list_item .image img,
   .b-image img,
   .b-video .video-link,
-  .b-db_entry>.c-image img,
+  .b-db_entry > .c-image img,
   .p-profiles .profile-head .c-history .entry img,
   .b-badge img,
   .b-badge .no-image {
@@ -489,7 +484,7 @@ body {
   .b-achievement .c-image .inner a .border,
   .b-achievement .c-image .inner a img,
   .b-achievement .c-image .inner a .no-image,
-  .b-spoiler_block>span,
+  .b-spoiler_block > span,
   .b-footer_vote,
   .create-topic,
   .to-other-reviews,
@@ -544,7 +539,7 @@ body {
 
   input[type="checkbox"]:checked::after,
   li.selected input[type="checkbox"]::after {
-    content: '';
+    content: "";
     display: list-item !important;
     position: absolute !important;
     z-index: 2 !important;
@@ -596,13 +591,13 @@ body {
 .p-animes-show .other-names:hover,
 .p-mangas-show .other-names:hover,
 .p-ranobe-show .other-names:hover,
-.collapsed+.spoiler .hide-expanded:hover {
+.collapsed + .spoiler .hide-expanded:hover {
   background-color: var(--lists-hover);
   border-color: var(--lists-even-bg);
   color: var(--text-color);
 }
 
-.collapsed+.spoiler .hide-expanded {
+.collapsed + .spoiler .hide-expanded {
   border-radius: 3px;
   background: var(--lists-odd-bg);
   border-color: var(--lists-even-bg);
