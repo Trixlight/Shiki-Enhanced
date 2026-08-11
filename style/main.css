@@ -437,21 +437,9 @@ body {
   }
 
   /* Img & Video Curved Corners */
-  .b-catalog_entry .cover .image-decor img {
-    margin: -2%;
-    width: 104%;
-    max-width: 104%;
-  }
-
-  .image-cutter {
-    border-radius: 2px;
-  }
-
-  .image-decor > .text {
-    border-radius: 0 0 2px 2px;
-    width: 98% !important;
-  }
-
+  .b-catalog_entry .cover .image-decor img,
+  .image-cutter,
+  .image-decor > .text,
   .b-db_entry-variant-list_item .image img,
   .b-image img,
   .b-video .video-link,
